@@ -5,12 +5,19 @@ The purpose of this Codebook is to explain how to prepare tidy data that can be 
 
 ### Variables
 The variables names are based on the following format:
+
 1. time of frequency - what was measured. **Unit**: seconds and Hz
+
 2. body or gravity - either the body or the gravity acceleration signal
+
 3. Accelerometer or Gyroscope - The sensor that emit the data
+
 4. Optional - Jerk or Magnitude
+
 5. Mean or Std - the staticial function
+
 6. Optional X, Y, Z - the directions
+
 
 #### Examples:
   * timeBodyGyroscopeJerkMeanX - time of body Gyroscope sensor - calculate Jerk Mean  of dimension X
